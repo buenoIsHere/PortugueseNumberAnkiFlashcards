@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta charset="utf-8">
+		<title>My test page</title>
+  </head>
+  <script>
+		var script = document.createElement("script");
+		script.src   = "_script.anki.num_gen.js";
+		document.getElementsByTagName('head')[0].appendChild(script);
+  </script>
+  <body>
+		<div id="IsMale" style="display:none">y</div>
+		<div id="IsPrice" style="display:none"></div>
+		<div id="NumberDecimalPlaces" style="display:none">2</div>
+		<div id="Min" style="display:none">0</div>
+		<div id="Max" style="display:none">10</div>
+
+		<div class=frontbg id="numerical">
+		</div>
+
+		<div class=frontbg id="verbal">
+		</div>
+  </body>
+</html>
